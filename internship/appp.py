@@ -19,7 +19,7 @@ formatted_datetime_str = datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
 appp = Flask(__name__)
 appp.json.sort_keys = False
 
-@appp.route('/user/', methods=['GET'])
+@appp.route('/api', methods=['GET'])
 def home_page():
     user_query = str(request.args.get('user'))
     track_query = str(request.args.get('track'))
