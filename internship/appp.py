@@ -41,4 +41,4 @@ def home_page():
     return response
 
 if __name__ == '__main__':
-    appp.run()
+    appp.run(host='0.0.0.0')
