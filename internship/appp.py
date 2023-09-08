@@ -29,6 +29,8 @@ def home_page():
         "current_day" : weekday,
         "utc_time": formatted_datetime_str,
         "track" : track_query,
+        "github_file_url" : "https://github.com/kadarkojr/zuri_backend/blob/main/internship/appp.py",
+        "github_repo_url" : "https://github.com/kadarkojr/zuri_backend",
         "status_code" : 200
         
     }
